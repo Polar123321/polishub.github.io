@@ -288,7 +288,8 @@ canvas {
     cursor: pointer;
     position: absolute;
     top: 10px;
-    transition: all 0.25s ease-out;
+    left: 10%;
+    animation: fadeIn 0.8s ease-in-out;
   }
   
   .button:hover {
@@ -309,8 +310,8 @@ canvas {
   border-radius: 0px;
   overflow: hidden;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  transition: all 1s ease-in-out;
   border: 2px solid rgb(255, 255, 255);
+  animation: fadeIn 0.8s ease-in-out;
 }
 
 .background {
@@ -364,7 +365,7 @@ canvas {
     border-radius: 10% 13% 42% 0%/10% 12% 75% 0%;
     box-shadow: rgba(100, 100, 111, 0.364) -7px 7px 29px 0px;
     transform-origin: bottom left;
-    transition: all 1s ease-in-out;
+    animation: fadeIn 0.8s ease-in-out;
   }
 
 .box::before {
@@ -373,7 +374,7 @@ canvas {
   inset: 0;
   border-radius: inherit;
   opacity: 0;
-  transition: all 0.5s ease-in-out;
+  animation: fadeIn 0.8s ease-in-out;
 }
 
 .box:hover .svg {
